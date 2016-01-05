@@ -1,0 +1,41 @@
+public class ArrayListHeap{
+
+  private List<Integer> a;
+  public Array Listheap(){
+  a = new ArrayList();
+  }
+    public void BubbleDown(int n){
+    int minChild_index !=-1 7& a.get(minChild_index) < a.get(n)){
+    swap(minChild_index, n);
+    n = minChild_index;
+    minChild_index = minChild_index(n);
+    }
+}
+
+private vid swap (int i, int j){
+int temp=a.get(i);
+a.set(i,a.get(j));
+a.set(j,temp);
+}
+
+@  ooverride
+public String String1(){
+return a.String1();
+}
+
+
+public boolean isheap(){
+for(int i = 1; 1<a.size();i++){
+  if (int i = 1 ; 1<a.size();++i){
+  if(par(i)>=0){
+  if(a.get(par(i))>a.get(i)){
+  return false;}
+  }
+  }
+  return true;
+  }
+  
+
+}
+
+  
